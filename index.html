@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallika Desai</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="#home">Mallika Desai</a></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li class="mobile-contact"><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+                <button class="hamburger"><i class="fas fa-bars"></i></button>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <img src="https://placehold.co/200x200" alt="Photo">
+            <div class="intro">
+                <h1>Hello, I'm Mallika Desai</h1>
+                <p>Recent BTech CSE graduate from Goa College of Engineering (2024), currently pursuing MTech CSIS at
+                    NITK Surathkal. Passionate about Front-End Web Development and Flutter.</p>
+                <a href="" download class="btn">Download Resume</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Mallika Desai, a passionate Computer Science engineer who recently completed my BTech from Goa College of Engineering in 2024. Currently, I'm pursuing an MTech in Computer Science and Information Security at NITK Surathkal. I love exploring the world of technology and creating user-friendly applications that make a difference. 
+            <br><br>My journey in tech has been exciting, and I'm always eager to learn new ways to solve real-world problems. In the future, I aim to become a skilled software developer, focusing on building innovative and impactful solutions in web and mobile development. I believe in using technology to create meaningful experiences, and I'm excited to contribute to the ever-evolving tech industry.</p>
+        <div class="three_tabs">
+            <div class="tabx tab1">
+                <a href="#education">Education</a>
+            </div>
+            <div class="tabx tab2">
+                 <a href="#skills">Skills</a>
+            </div>
+            <div class="tabx tab3">
+                 <a href="#work">Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-category">
+            <h3>Web Development</h3>
+            <div class="skill">
+                <span>HTML</span>
+                <div class="progress">
+                    <div class="bar" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="progress">
+                    <div class="bar" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="progress">
+                    <div class="bar" style="width: 30%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>PHP</span>
+                <div class="progress">
+                    <div class="bar" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Mobile Development</h3>
+            <div class="skill">
+                <span>Flutter</span>
+                <div class="progress">
+                    <div class="bar" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <div class="skill">
+                <span>C</span>
+                <div class="progress">
+                    <div class="bar" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>C++</span>
+                <div class="progress">
+                    <div class="bar" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Python</span>
+                <div class="progress">
+                    <div class="bar" style="width: 30%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>UI/UX</h3>
+            <div class="skill">
+                <span>Figma Designing</span>
+                <div class="progress">
+                    <div class="bar" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="project">
+            <div class="project_top">
+                <img src="https://placehold.co/200x200" alt="Photo">
+            </div>
+            <div class="project_bottom">
+                <h3>Mingling Spices</h3>
+                <p>A fully functional restaurant website featuring menu displays, reservations, and user interactions.
+                    <br>Technologies: HTML, CSS, JavaScript, PHP.
+                </p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project_bottom">
+                <h3>ClassWatch</h3>
+                <p>An innovative attendance management system that uses facial recognition for automated tracking.
+                    <br>Technologies: Flutter (Frontend), Firebase (Database), Python server.
+                </p>
+            </div>
+            <div class="project_top">
+                <img src="https://placehold.co/200x200" alt="Photo">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="contact_heading">Contact Me</h2>
+        <form id="contact-form">
+            <div class="contact_top">
+                <input type="text" id="name" name="name" placeholder="Enter you name" required>
+                <input type="email" id="email" name="email" placeholder="Enter you email id" required>
+            </div>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer_right">&copy; 2025 Mallika Desai. All rights reserved.</div>
+        <div class="footer_left social">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/your-github-username" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/your-twitter-username" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+       
+
+        const toggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark');
+            toggle.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            toggle.innerHTML = '<i class="fas fa-moon"></i>';
+        }
+        toggle.addEventListener('click', () => {
+            body.classList.toggle('dark');
+            if (body.classList.contains('dark')) {
+                localStorage.setItem('theme', 'dark');
+                toggle.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggle.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        });
+
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // EmailJS setup - Replace with your own EmailJS details after signing up at https://www.emailjs.com/
+        // 1. Create an account.
+        // 2. Set up a service (e.g., Gmail).
+        // 3. Create an email template with placeholders {{name}}, {{email}}, {{message}}.
+        // 4. Get your serviceID, templateID, and publicKey from the dashboard.
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const serviceID = 'your_service_id_here'; // Replace
+            const templateID = 'your_template_id_here'; // Replace
+            const publicKey = 'your_public_key_here'; // Replace
+            emailjs.sendForm(serviceID, templateID, this, publicKey)
+                .then(() => {
+                    alert('Message sent successfully!');
+                    this.reset();
+                }, (err) => {
+                    alert('Failed to send message. Error: ' + JSON.stringify(err));
+                });
+        });
+    </script>
+</body>
+
+</html>
